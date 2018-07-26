@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Friend Finder: Survey</title>
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- <script src="./server.js"></script> -->
+</head>
+
+<body>
+    <div class='container'>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    <strong>About You</strong>
+                </h3>
+            </div>
+            <div class="panel-body">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name (required)</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="image">Link to Photo Image (required)</label>
+                        <input type="text" class="form-control" id="image">
+                    </div>
+                    <div class="form-group">
+                        <label for="q1">Money is the most important thing.</label>
+                        <select id="q1" class="form-control">
+                            <option selected value="">Select an Option</option>
+                            <option value='1'>1 (Strongly Disagree)</option>
+                            <option value='2'>2</option>
+                            <option value='3'>3</option>
+                            <option value='4'>4</option>
+                            <option value='5'>5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="q2">Travelling is my passion.</label>
+                        <select id="q2" class="form-control">
+                            <option selected value="">Select an Option</option>
+                            <option value='1'>1 (Strongly Disagree)</option>
+                            <option value='2'>2</option>
+                            <option value='3'>3</option>
+                            <option value='4'>4</option>
+                            <option value='5'>5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="q3">I love sports.</label>
+                        <select id="q3" class="form-control">
+                            <option selected value="">Select an Option</option>
+                            <option value='1'>1 (Strongly Disagree)</option>
+                            <option value='2'>2</option>
+                            <option value='3'>3</option>
+                            <option value='4'>4</option>
+                            <option value='5'>5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="q4">I could stay in nature all day.</label>
+                        <select id="q4" class="form-control">
+                            <option selected value="">Select an Option</option>
+                            <option value='1'>1 (Strongly Disagree)</option>
+                            <option value='2'>2</option>
+                            <option value='3'>3</option>
+                            <option value='4'>4</option>
+                            <option value='5'>5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="q5">I prefer to stay inside and watch TV and movies.</label>
+                        <select id="q5" class="form-control">
+                            <option selected value="">Select an Option</option>
+                            <option value='1'>1 (Strongly Disagree)</option>
+                            <option value='2'>2</option>
+                            <option value='3'>3</option>
+                            <option value='4'>4</option>
+                            <option value='5'>5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="q6">I enjoy going out to bars and clubs on the weekends.</label>
+                        <select id="q6" class="form-control">
+                            <option selected value="">Select an Option</option>
+                            <option value='1'>1 (Strongly Disagree)</option>
+                            <option value='2'>2</option>
+                            <option value='3'>3</option>
+                            <option value='4'>4</option>
+                            <option value='5'>5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="q7">I hit the gym whenever I get the chance.</label>
+                        <select id="q7" class="form-control">
+                            <option selected value="">Select an Option</option>
+                            <option value='1'>1 (Strongly Disagree)</option>
+                            <option value='2'>2</option>
+                            <option value='3'>3</option>
+                            <option value='4'>4</option>
+                            <option value='5'>5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="q8">I prioritize work over most things.</label>
+                        <select id="q8" class="form-control">
+                            <option selected value="">Select an Option</option>
+                            <option value='1'>1 (Strongly Disagree)</option>
+                            <option value='2'>2</option>
+                            <option value='3'>3</option>
+                            <option value='4'>4</option>
+                            <option value='5'>5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="q9">I prefer listening to songs rather than albums.</label>
+                        <select id="q9" class="form-control">
+                            <option selected value="">Select an Option</option>
+                            <option value='1'>1 (Strongly Disagree)</option>
+                            <option value='2'>2</option>
+                            <option value='3'>3</option>
+                            <option value='4'>4</option>
+                            <option value='5'>5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="q10">I prefer casual comfortable clothes rather than fashionable.</label>
+                        <select id="q10" class="form-control">
+                            <option selected value="">Select an Option</option>
+                            <option value='1'>1 (Strongly Disagree)</option>
+                            <option value='2'>2</option>
+                            <option value='3'>3</option>
+                            <option value='4'>4</option>
+                            <option value='5'>5 (Strongly Agree)</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary" id='submit'>Submit</button>
+                </form>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="bff-modal" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" align="left">Your New BFF</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- name and image will dynamically be added after "post"-->
+                        <h2 id="bff-name"></h2>
+                        <img id="bff-img" height="200" width="200" alt="No Image">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            $('#submit').on('click', function (event) {
+                event.preventDefault();
+                var newFriend = {
+                    name: $('#name').val().trim(),
+                    image: $('#image').val().trim(),
+                    scores: [parseInt($('#q1').val()), parseInt($('#q2').val()), parseInt($('#q3').val()),
+                    parseInt($('#q4').val()), parseInt($('#q5').val()), parseInt($('#q6').val()),
+                    parseInt($('#q7').val()), parseInt($('#q8').val()), parseInt($('#q9').val()),
+                    parseInt($('#q10').val())]
+                }
+                $.get('api/friends', function (data) {
+                    var delta = [];
+                    var minDelta = 100;
+                    var minIndex;
+                    for (i = 0; i < data.length; i++) {
+                        for (j = 0; j < data[i].scores.length; j++) {
+                            delta[i] = Math.abs(newFriend.scores[j] - parseInt(data[i].scores[j]));
+                        }
+                    }
+                    for (k = 0; k < delta.length; k++) {
+                        if (minDelta > delta[k]) {
+                            minDelta = delta[k];
+                            minIndex = k;
+                        }
+                    }
+                    console.log(data);
+                    console.log(delta);
+                    console.log(minDelta)
+                    console.log(minIndex)
+                    // display the modal (unhide)
+                    $('#bff-name').text(data[minIndex].name);
+                    $('#bff-img').text(data[minIndex].image)
+                    $("#bff-modal").modal("toggle");
+                })
+                $.post('api/friends', newFriend).then(function (data) {
+                    console.log(data);
+                })
+            })
+        </script>
+</body>
+
+</html>
